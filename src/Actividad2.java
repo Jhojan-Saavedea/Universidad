@@ -4,23 +4,23 @@ public class Actividad2 {
     public static void main(String[] args) {
 
         ArrayList<String> names = new ArrayList<>();
-        names.add("Yised");
-        names.add("David");
-        names.add("Shanya");
-        names.add("Johan");
+        names.add("Gabriela");
+        names.add("Kevin");
+        names.add("Julie");
+        names.add("Lunita");
         names.add("Valery");
 
-        System.out.println("Impresión con for:");
+        System.out.println("con for:");
         for (int i = 0; i < names.size(); i++) {
             System.out.println(names.get(i));
         }
 
-        System.out.println("Impresión con foreach:");
+        System.out.println("con foreach:");
         for (String name : names) {
             System.out.println(name);
         }
 
-        System.out.println("Impresión con while:");
+        System.out.println("con while:");
         int i = 0;
         while (i < names.size()) {
             System.out.println(names.get(i));
